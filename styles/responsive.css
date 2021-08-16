@@ -1,0 +1,129 @@
+@media (max-width: 900px) {
+   .animate {
+      display: none;
+   }
+
+   .first-container-footer {
+      height: 20%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+   }
+
+   .logo-first-container {
+      margin: 0 !important;
+   }
+
+   .first-container {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .first-container h1 {
+      font-size: 40px !important;
+   }
+
+   .first-container .text-center {
+      margin: 0 1rem;
+   }
+
+   .title {
+      padding-top: 0 !important;
+      align-items: center !important;
+      padding: 0 !important;
+      justify-content: flex-end;
+   }
+
+   button.big {
+      margin: 3rem;
+      bottom: 0 !important;
+   }
+
+   .form {
+      min-width: 90vw;
+   }
+
+   strong.text-danger {
+      font-weight: normal;
+      color: #555 !important;
+   }
+
+   .second-container .row {
+      flex-direction: column;
+   }
+
+   .second-container .color7,
+   .color8,
+   .color9,
+   .color10 {
+      display: none;
+   }
+
+   .container .row {
+      --bs-gutter-x: 0 !important;
+   }
+
+   .third-group {
+      flex-direction: column;
+   }
+
+   .third-group .group {
+      width: 90vw;
+      display: grid;
+      grid-template-areas:
+         "title ball"
+         "text ball"
+         "button ball"
+         "divide divide";
+      justify-content: center;
+      align-items: center;
+      padding: 0 !important;
+   }
+
+   .group .text-center,
+   .text-sm-center {
+      text-align: left !important;
+   }
+
+   .group .ball {
+      grid-area: ball;
+      width: 100px;
+      height: 100px;
+   }
+
+   .group p.fw-bold {
+      grid-area: title;
+   }
+
+   .group .divide {
+      grid-area: divide;
+   }
+
+   .group .text-secondary {
+      grid-area: text;
+   }
+
+   .group button {
+      grid-area: button;
+      width: 120px;
+      padding: 0.5rem;
+   }
+
+   .group .divide {
+      width: 100%;
+      margin: 2rem 0;
+   }
+
+   .group-yellow .divide {
+      display: none;
+   }
+
+   .fourth {
+      padding: 4rem 3rem;
+   }
+
+   .sixth-container h2 {
+      font-weight: normal !important;
+   }
+}

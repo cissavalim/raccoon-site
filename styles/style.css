@@ -1,0 +1,359 @@
+:root {
+   --blue: #2571b7;
+   --dark-blue: #2c5898;
+   --button-dark: #002050;
+   --button-light: #00a4ef;
+   --medium-blue: #0072c6;
+   --medium-dark-blue: #2c5898;
+   --dark-green: #207245;
+   --red: #cb4a32;
+   --purple: #733781;
+   --green: #7fba00;
+   --yellow: #ffb900;
+}
+
+html {
+   scroll-behavior: smooth;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color1 {
+   background-color: var(--dark-blue);
+}
+
+.color2 {
+   background-color: var(--button-dark);
+}
+
+.color3 {
+   background-color: var(--dark-green);
+}
+
+.color4 {
+   background-color: var(--red);
+}
+
+.color5 {
+   background-color: var(--purple);
+}
+
+.color6 {
+   background-color: var(--button-light);
+}
+
+.color7 {
+   background-color: var(--button-dark);
+}
+
+.color8 {
+   background-color: var(--dark-blue);
+}
+
+.color9 {
+   background-color: var(--medium-dark-blue);
+}
+
+.color10 {
+   background-color: var(--purple);
+}
+
+@keyframes mymove {
+   from {
+      margin-bottom: 0px;
+   }
+   to {
+      margin-bottom: 50px;
+   }
+}
+
+.animate {
+   animation: mymove 0.8s infinite;
+   animation-direction: alternate;
+   cursor: pointer;
+}
+
+body {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   background-color: whitesmoke;
+}
+
+.navbar {
+   height: 70px;
+   background-color: var(--blue) !important;
+}
+
+a.nav-link {
+   color: white !important;
+   font-size: 14px;
+   margin: auto 2rem;
+}
+.navbar-dark .navbar-toggler {
+   border: none;
+}
+
+button.nav {
+   background-color: var(--button-dark);
+   margin: 0 4rem;
+   padding: 0.5rem 1rem;
+   border-radius: 0;
+}
+
+.navbar-brand {
+   margin-left: 5rem;
+}
+
+.first-container {
+   color: white;
+}
+
+.first-container h1 {
+   font-size: 70px !important;
+}
+
+.background {
+   position: relative;
+   background: url("../assets/background.png");
+   height: 90vh;
+   background-size: cover;
+}
+
+.first-container {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.title {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   height: 60%;
+   padding-left: 4rem;
+   padding-top: 20%;
+}
+
+button.big {
+   background-color: var(--button-light);
+   border-radius: 0;
+   padding: 0.7rem 2.5rem;
+   font-size: 24px;
+   padding: auto;
+   margin: 5rem 0 0 0;
+}
+
+.first-container-footer {
+   height: 20%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo-first-container {
+   margin-right: 5rem !important;
+}
+
+.second-container {
+   margin-bottom: 4rem;
+}
+
+.text-primary {
+   color: var(--blue) !important;
+   margin: 2rem;
+}
+
+.simple-text {
+   color: #555;
+   font-size: 1rem;
+   padding: 4rem 0 0 2rem;
+}
+
+.content {
+   display: grid;
+   grid-template-areas:
+      "img title"
+      "img text";
+   margin: 10px;
+   padding: 0.8rem 1rem;
+   font-size: 14px;
+   align-items: center;
+   color: whitesmoke;
+   max-width: 90vw;
+}
+
+.item-title {
+   grid-area: title;
+}
+
+.text {
+   grid-area: text;
+}
+
+.img {
+   grid-area: img;
+   margin-right: 1rem;
+}
+
+.third-container {
+   margin: 4rem 1rem;
+}
+
+.group {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 2rem;
+}
+
+.ball {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin: 1rem;
+}
+
+.group-green .fw-bold {
+   color: var(--green) !important;
+}
+
+.group-green button {
+   border-radius: 0;
+   border: 2px solid var(--green);
+   color: var(--green);
+   font-weight: bold;
+}
+
+.group-blue button {
+   border-radius: 0;
+   border: 2px solid var(--button-light);
+   color: var(--button-light);
+   font-weight: bold;
+}
+
+.group-yellow button {
+   border-radius: 0;
+   border: 2px solid var(--yellow);
+   color: var(--yellow);
+   font-weight: bold;
+}
+
+.group-blue .fw-bold {
+   color: var(--button-light);
+}
+
+.group-yellow {
+   color: var(--yellow);
+}
+
+.ball-green {
+   background-color: var(--green);
+   background-image: url("../assets/image5.png");
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: center;
+}
+
+.ball-blue {
+   background-color: var(--button-light);
+   background-image: url("../assets/image4.png");
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: center;
+}
+
+.ball-yellow {
+   background-color: var(--yellow);
+   background-image: url("../assets/image3.png");
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: center;
+}
+
+.divide {
+   height: 3px;
+   width: 60px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-bottom: 1rem;
+}
+
+.third-group {
+   margin-top: 4rem;
+}
+
+.bordered {
+   padding: 1rem;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.fourth-container {
+   margin-bottom: 4rem;
+}
+
+.fourth-container .row {
+   border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.fifth-container {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-image: url(../assets/image.png);
+   color: white;
+   font-weight: 400;
+   margin-bottom: 4rem;
+}
+
+.fourth {
+   background-color: rgba(0, 0, 0, 0.7);
+   height: 100%;
+   padding: 5rem;
+}
+
+.form {
+   width: 40vw;
+   background-color: rgba(0, 0, 0, 0.1);
+   padding: 2rem 3rem;
+}
+
+.form-control {
+   height: 3rem;
+   border-radius: 0;
+}
+
+.sixth-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 1rem;
+}
+
+.btn-submit {
+   width: 100%;
+   border-radius: 0;
+   background-color: var(--button-light);
+   border: 0;
+   margin-top: 1rem;
+   padding: 0.5rem;
+   color: white;
+}
+
+footer.first {
+   padding: 4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+
+.wrapper-footer {
+   margin: 0 2rem;
+}
