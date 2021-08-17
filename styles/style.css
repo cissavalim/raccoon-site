@@ -10,6 +10,7 @@
    --purple: #733781;
    --green: #7fba00;
    --yellow: #ffb900;
+   --dark-yellow: #584a21;
 }
 
 html {
@@ -271,6 +272,21 @@ button.big:hover {
    font-weight: bold;
 }
 
+.group-green button:hover {
+   color: var(--dark-green) !important;
+   transition: 0.3s;
+}
+
+.group-blue button:hover {
+   color: var(--button-dark) !important;
+   transition: 0.3s;
+}
+
+.group-yellow button:hover {
+   color: var(--dark-yellow) !important;
+   transition: 0.3s;
+}
+
 .group-blue .fw-bold {
    color: var(--button-light);
 }
@@ -370,6 +386,12 @@ button.big:hover {
    margin-top: 1rem;
    padding: 0.5rem;
    color: white;
+}
+
+.btn-submit:hover {
+   background-color: var(--blue);
+   color: white;
+   transition: 0.3s;
 }
 
 footer.first {
