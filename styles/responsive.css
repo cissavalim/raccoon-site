@@ -1,6 +1,25 @@
+@media (max-width: 991px) {
+   button.nav {
+      margin: auto 2rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0;
+      width: 150px;
+      display: block;
+   }
+}
+
 @media (max-width: 900px) {
    .animate {
       display: none;
+   }
+
+   button.nav {
+      margin: auto 2rem;
+      padding: 0;
+      border-radius: 0;
+      width: 150px;
+      padding: 0.5rem;
+      display: block;
    }
 
    .first-container-footer {
